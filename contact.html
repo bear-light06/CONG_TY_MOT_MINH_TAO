@@ -1,0 +1,266 @@
+<!-- LIÊN HỆ -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Công Ty Một Mình Tao</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./images/meo6.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/meo5.png" alt="Logo Công Ty Một Mình Tao">
+                        <span class="logo-text">Công Ty Một Mình Tao</span>
+                    </a>
+                </div>
+                
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <i class="fas fa-home"></i>
+                                <span>Trang Chủ</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Giới Thiệu</span>
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="contact.html" class="nav-link">
+                                <i class="fas fa-envelope"></i>
+                                <span>Liên Hệ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTACT CONTENT -->
+    <main class="contact-page">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <a href="index.html">Trang chủ</a>
+                <span>/</span>
+                <span>Liên hệ</span>
+            </div>
+            
+            <!-- Page Title -->
+            <h1 class="page-title">Liên Hệ Với Chúng Tôi</h1>
+            
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Thông Tin Liên Hệ</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Địa Chỉ</h3>
+                            <p>QL.32 Lai Xá - Kim Chung - Hoài Đức</p>
+                            <p>Lên Thiên Đàng</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Điện Thoại</h3>
+                            <p>0798 753 558</p>
+                            <p>Hotline: T Không Biết</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>tonvantung27082006@gmail.com</p>
+                            <p>tonvantung27082006@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Giờ Làm Việc</h3>
+                            <p>Thứ 2 - Thứ 6: 8:00 - 17:30</p>
+                            <p>Thứ 7: 8:00 - 12:00</p>
+                            <p>Chủ nhật: Nghỉ</p>
+                        </div>
+                    </div>
+                    
+                    <div class="map">
+                        <h3>Bản Đồ</h3>
+                        <!-- Đoạn mã Google Maps đơn giản -->
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Bản đồ vị trí công ty</p>
+                            <p>(Có thể thay bằng iframe Google Maps)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Gửi Tin Nhắn Cho Chúng Tôi</h2>
+                    <p>Hãy điền thông tin bên dưới, chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Họ và Tên *</label>
+                            <input type="text" id="name" name="name" required placeholder="Nguyễn Văn A">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone" placeholder="0901 234 567">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Chủ Đề</label>
+                            <select id="subject" name="subject">
+                                <option value="">Chọn chủ đề</option>
+                                <option value="support">Hỗ trợ kỹ thuật</option>
+                                <option value="sales">Tư vấn mua hàng</option>
+                                <option value="partnership">Hợp tác</option>
+                                <option value="other">Khác</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Nội Dung Tin Nhắn *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Xin vui lòng nhập nội dung tin nhắn của bạn..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Gửi Tin Nhắn
+                        </button>
+                        
+                        <p class="form-note">* Thông tin bắt buộc</p>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Câu Hỏi Thường Gặp</h2>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Làm thế nào để đặt hàng?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Bạn có thể đặt hàng qua website hoặc gọi trực tiếp đến hotline 0901 234 567. Nhân viên chúng tôi sẽ hỗ trợ bạn.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Thời gian giao hàng là bao lâu?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Thời gian giao hàng tại TP.HCM là 24 giờ, các tỉnh thành khác từ 2-5 ngày làm việc tùy vào địa điểm.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Có chính sách bảo hành không?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tất cả sản phẩm đều được bảo hành chính hãng từ 12-24 tháng tùy sản phẩm.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="logo">
+                        <img src="./images/meo5.png" alt="Logo Công Ty ABC">
+                        <span>Công Ty Một Mình Tao</span>
+                    </div>
+                    <p>Địa chỉ: QL.32 Lai Xá - Kim Chung - Hoài Đức</p>
+                    <p>Email: tonvantung27082006@gmail.com</p>
+                    <p>Điện thoại: 0798 753 558</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Liên Kết Nhanh</h3>
+                    <ul>
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="about.html">Giới Thiệu</a></li>
+                        <li><a href="contact.html">Liên Hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Theo Dõi Chúng Tôi</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Công Ty Một Mình Tao. Chúng Mày Không Có Quyền Nói Ở Đây Chỉ Nghe Thôi.</p>
+                <p>Thiết kế bởi <a href="#" style="color: #4CAF50;">Đội ngũ Công Ty Một Mình Tao</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
